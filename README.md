@@ -22,3 +22,4 @@ Example of running a solution:
 
 ```bash
 node path/to/solution_file.js
+```
