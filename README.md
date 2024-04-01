@@ -16,7 +16,7 @@ Each solution is organized by challenge, making it easy to navigate through the 
 
 ## Getting Started
 
-To run these solutions on your local machine, you will need [Node.js](https://nodejs.org/) installed. Each solution is a standalone script that can be executed with Node.js.
+To run these solutions on your local machine, you will need [Node.js](https://nodejs.org/) installed. Each solution is a standalone script that can be executed with Node.js 18.
 
 Example of running a solution:
 
