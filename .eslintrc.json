@@ -1,0 +1,6 @@
+{
+  "extends": ["semistandard", "standard", "prettier"],
+  "env": {
+    "jest": true
+  }
+}
