@@ -1,5 +1,6 @@
 # Ignore artifacts:
 build
+dist
 coverage
 fixtures
 __fixtures__
