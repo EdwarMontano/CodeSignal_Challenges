@@ -1,7 +1,5 @@
 import { solution } from "../src/002-centuryFromYear.js";
 
-// console.assert(solution(1, 2) === 3, "Suma of 1 and 2 should be 3");
-
 describe("002-century", () => {
   test("The year 1905, It's 20th century ", () => {
     expect(solution(1905)).toBe(20);
