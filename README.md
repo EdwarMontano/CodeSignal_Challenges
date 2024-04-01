@@ -21,5 +21,5 @@ To run these solutions on your local machine, you will need [Node.js](https://no
 Example of running a solution:
 
 ```bash
-node path/to/solution_file.js
+node src/path/to/solution_file.js
 ```
