@@ -1,6 +1,6 @@
 import { solution } from "../src/003-polindrome.js";
 
-describe("003-polindrome", () => {
+describe("TEST -> 003-polindrome", () => {
   test("The word 'aabaa', should be true.", () => {
     expect(solution("aabaa")).toBe(true);
   });

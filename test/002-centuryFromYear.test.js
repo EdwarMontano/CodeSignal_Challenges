@@ -1,6 +1,6 @@
 import { solution } from "../src/002-centuryFromYear.js";
 
-describe("002-century", () => {
+describe("TEST -> 002-century", () => {
   test("The year 1905, It's 20th century ", () => {
     expect(solution(1905)).toBe(20);
   });

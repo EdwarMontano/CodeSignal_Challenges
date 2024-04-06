@@ -33,3 +33,5 @@ export function solution(inputString) {
   }
 }
 // console.log(solution("aaBaa"))
+// find ./node_modules -type f -exec du -h {} + | sort -rh | head -n 100
+// <link rel="preconnect" href="https://url.com"></link>
