@@ -1,4 +1,4 @@
-import { solution,solution2 } from "../src/005-n-interestingPolygonArea";
+import { solution, solution2 } from "../src/005-n-interestingPolygonArea";
 
 describe("TEST -> 005-polygonArea", () => {
   test("For n=1 the area poligon should be 1", () => {
