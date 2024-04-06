@@ -21,5 +21,11 @@ To run these solutions on your local machine, you will need [Node.js](https://no
 Example of running a solution:
 
 ```bash
+nvm install --lts=Hydrogen
+nvm use
+corepack enable pnpm
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 node src/path/to/solution_file.js
+git config commit.gpgsign true
+git config user.signingkey [uuid-of-gpg-key]
 ```
