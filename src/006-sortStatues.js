@@ -1,3 +1,29 @@
+/**
+ * Calculates the minimum number of additional statues needed for Ratiorg
+ * to arrange his statues in such a way that each statue is exactly 1 size larger
+ * than the previous one.
+ *
+ * Ratiorg received statues of different sizes as a present and wants to
+ * arrange them from smallest to largest with each statue being bigger
+ * than the previous one exactly by 1. This function helps to determine
+ * the minimum number of additional statues Ratiorg needs to accomplish this.
+ *
+ * @example
+ * // returns 3
+ * solution([6, 2, 3, 8]);
+ *
+ * @param {number[]} statues - An array of distinct non-negative integers representing
+ * the sizes of the statues Ratiorg has.
+ * @return {number} - The minimal number of additional statues needed to ensure that
+ * the collection contains every integer size from an interval [L, R] (for some L, R)
+ * and no other sizes.
+ *
+ * @constraints
+ * - Execution time limit: 4 seconds.
+ * - Memory limit: 1GB.
+ * - 1 ≤ statues.length ≤ 10.
+ * - 0 ≤ statues[i] ≤ 20.
+ */
 export function solution(statues) {
   let results = [];
   const lengthArray = statues.length;
