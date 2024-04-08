@@ -28,10 +28,8 @@ export function solution(statues) {
         (_, index) => index + statuesMin,
       );
       console.log(numbersArray);
-      results = numbersArray.filter(
-        (item) => !statues.includes(item),
-      ).length;
-      console.log(results)
+      results = numbersArray.filter((item) => !statues.includes(item)).length;
+      console.log(results);
     } else {
       console.log("Invalid input parameters");
       results = "Error: Invalid input parameters";
