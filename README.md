@@ -29,3 +29,27 @@ node src/path/to/solution_file.js
 git config commit.gpgsign true
 git config user.signingkey [uuid-of-gpg-key]
 ```
+
+## Contributing
+
+### Style for the comments
+
+For comments, we will follow the format below. For the configuration, you can refer to the following [guide](https://chocoplot.notion.site/Better-Comments-d5f56ea6e3e942beb99862ee66089cc0):
+
+```javascript
+//  Normal Comment
+// BUG: Lorem Ipsum is simply dummy text
+// HACK: Lorem Ipsum is simply dummy text
+// WARNING: Lorem Ipsum is simply dummy text
+// TODO: Lorem Ipsum is simply dummy texttext
+// [ ] TODO: Lorem Ipsum is simply dummy text
+// [x] TODO: Lorem Ipsum is simply dummy text
+// FIXME: Lorem Ipsum is simply dummy texttext
+// ( ) FIXME: Lorem Ipsum is simply dummy text
+// (x) FIXME: Lorem Ipsum is simply dummy text
+// ISSUE: Lorem Ipsum is simply dummy texttext
+// ( ) ISSUE: Lorem Ipsum is simply dummy text
+// (x) ISSUE: Lorem Ipsum is simply dummy text
+// NOTE: Lorem Ipsum is simply dummy text
+// PERF: This function is OK
+```
