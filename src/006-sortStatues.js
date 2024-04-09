@@ -69,3 +69,8 @@ export function solution(statues) {
   console.log(results);
   return results;
 }
+
+// NOTE:Learn the why of  this solution???
+export function solution2(sequence) {
+  return Math.max(...sequence) - Math.min(...sequence) + 1 - sequence.length;
+}
