@@ -26,4 +26,5 @@
 export function solution(sequence) {
   // Function implementation goes here
   console.log(sequence);
-  return false;}
+  return false;
+}
