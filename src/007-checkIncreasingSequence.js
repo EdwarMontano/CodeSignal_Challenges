@@ -25,7 +25,7 @@
  */
 export function solution(sequence) {
   // Function implementation goes here
-  // Todo: 
+  // Todo: this exercise 
   console.log(sequence);
   return false;
 }
